@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<p id="text" style="display: none;">hidden text</p>
+<button onclick="changeStyle()" id="btn">click</button>
+    <script>
+       const text = document.getElementById('text');
+       const btn = document.getElementById('btn');
+
+       const changeStyle = () => {
+            text.style.display = 'block';
+       }
+    </script>
+</body>
+
+</html>
