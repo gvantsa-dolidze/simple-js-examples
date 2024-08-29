@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <p id="text">random text</p>
+  <button id="btn" onclick="changeStyle()">click</button>
+
+
+    <script>
+        const btn = document.getElementById('btn');
+        const text = document.getElementById('text');
+
+        const changeStyle = () => {
+            text.style.color = 'red';
+            text.style.backgroundColor = 'blue';
+            text.style.padding = '10px';
+        }
+    </script>
+</body>
+
+</html>
