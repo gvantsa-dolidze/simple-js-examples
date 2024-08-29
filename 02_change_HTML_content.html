@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<p class="paragraph">Some random text to change </p>
+<button class="btn">Click</button>
+
+<body>
+
+    <script>
+        const clickBtn = document.querySelector('.btn');
+        const paragraph = document.querySelector('.paragraph');
+
+        clickBtn.addEventListener('click', () => paragraph.innerHTML = 'text changed!');
+    </script>
+</body>
+
+</html>
