@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <input type="text" class="name_input" placeholder="Enter your name...">
+    <p class="result"></p>
+    <button id="js-btn" onclick="sayHello()">click</button>
+    <script>
+        const nameInput = document.querySelector('.name_input');
+        const result = document.querySelector('.result');
+        const sayHello = () => {
+            result.innerHTML = `Hello, ${nameInput.value}`;
+        }
+    </script>
+</body>
+
+</html>
